@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+// ===================================================================
+// mixin
+// ===================================================================
+$media: 767px;
+@mixin pc {
+  @media (min-width: ($media)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($media)) {
+    @content;
+  }
+}
+// @include pc {};
+// @include sp {};　として使う

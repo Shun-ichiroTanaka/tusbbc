@@ -33,15 +33,7 @@
     </header>
     <div class="l-section__0">
         <div class="l-section__0-box">
-            <h1>
-                <span class="l-section__0-welcome">Welcome to</span><br>
-                <span class="l-section__0-name">Tokyo University Of Science</span><br>
-                Baseball<br>
-                Club.
-            </h1>
-            <div class="l-section__0-img">
-                <img src="<?php echo get_template_directory_uri(); ?>/public/img/bg.svg" width="600px" height="600px" alt="">
-            </div>
+            <img src="<?php echo get_template_directory_uri(); ?>/public/img/bg.svg" alt="">
         </div>
         <div class="mouse">
             <span></span>
